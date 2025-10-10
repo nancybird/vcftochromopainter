@@ -1,5 +1,5 @@
 # vcftochromopainter
-Perl script for converting from vcf to chromopainterv2 format
+script for converting from vcf to chromopainterv2 format
 
 // to compile:     gcc -Wall -o VCFToCPConvertNoFrills VCFToCPConvertNoFrills.c -lm -lz
 // usage:  ./VCFToCPConvertNoFrills -g vcf.infile.gz -r recom.infile -o out.file
