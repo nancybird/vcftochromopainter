@@ -14,11 +14,6 @@
 
 // usage:  ./VCFToCPConvertNoFrills -g vcf.infile.gz -r recom.infile -o out.file
 
-// example:  ./VCFToCPConvertNoFrills -g /lustre8/home/ghellenthal-pg/VCFinput/YGDP-freeze1.phased.ancientsmerged_ALLPOPS_quality05_chr22_filtered.vcf.gz -r /home/nancybird-pg/maps/chr22.SHAPEIT.b38.gmap -o /lustre8/home/ghellenthal-pg/CPinput/YGDP-freeze1.phased.ancientsmerged_ALLPOPS_quality05_chr22.cversion.cp
-
-// example:  ./VCFToCPConvertNoFrills -g /lustre8/home/ghellenthal-pg/temp/YGDP-freeze1.phased.ancientsmerged.chr5.vcf.gz -r /home/nancybird-pg/maps/chr5.SHAPEIT.b38.gmap -f /lustre8/home/ghellenthal-pg/datainfo/JapanDataAscertain.popfile.txt -t /lustre8/home/ghellenthal-pg/datainfo/JapanDataALLPOPSQuality05.idfile.txt -s /lustre8/home/ghellenthal-pg/NancyNeanderthalLiftover/CombinedArchaicSNPList_chr5.txt -o /lustre8/home/ghellenthal-pg/CPinput/YGDP-freeze1.phased.ancientsmerged_ALLPOPS_quality05_chr5.cversion.cp
-// example:  ./VCFToCPConvertNoFrills -g /lustre8/home/ghellenthal-pg/temp/YGDP-freeze1.phased.ancientsmerged.chr21.vcf.gz -r /home/nancybird-pg/maps/chr21.SHAPEIT.b38.gmap -f /lustre8/home/ghellenthal-pg/datainfo/JapanDataAscertain.popfile.txt -t /lustre8/home/ghellenthal-pg/datainfo/JapanDataALLPOPSQuality05.idfile.txt -s /lustre8/home/ghellenthal-pg/NancyNeanderthalLiftover/CombinedArchaicSNPList_chr21.txt -o /lustre8/home/ghellenthal-pg/CPinput/YGDP-freeze1.phased.ancientsmerged_ALLPOPS_quality05_chr21.cversion.cp
-
 *******************************************************************/
 
 int reading(st, format, res)
