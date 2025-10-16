@@ -1,4 +1,8 @@
-# vcftochromopainter
+## vcftochromopainter
+*please note this is a development version and may have lots of bugs*
+
+author: Garrett Hellenthal
+
 script for converting from vcf to chromopainterv2 format
 
 // to compile:     gcc -Wall -o VCFToCPConvertNoFrills VCFToCPConvertNoFrills.c -lm -lz
