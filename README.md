@@ -21,6 +21,8 @@ to run: use './VCFToCPConvertNoFrills' with following options:
        -s <snplist.filein>  file listing SNPs to keep
        
        -n <int>  read in this many inds at a time, to save RAM (default=1000)
+
+       -f list of pops to ascertain on (from id file)
        
        -o <outfile-prefix>  (default = 'vcf.filein')
        
