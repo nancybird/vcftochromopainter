@@ -10,6 +10,22 @@ script for converting from vcf to chromopainterv2 format
 // usage:  ./VCFToCPConvert -g vcf.infile.gz -r recom.infile -o out.file
 
 
+to run: use './VCFToCPConvertNoFrills' with following options:
+       
+       -g <vcf.filein>  (VCF.gz file;REQUIRED; no default)
+       
+       -r <recommap.filein>  (REQUIRED; no default)
+       
+       -t <labels.filein>  file listing id labels to keep
+       
+       -s <snplist.filein>  file listing SNPs to keep
+       
+       -n <int>  read in this many inds at a time, to save RAM (default=1000)
+       
+       -o <outfile-prefix>  (default = 'vcf.filein')
+       
+       --help  print this menu
+
 Map must be in format e.g.: 
 
 Position(bp)	Rate(cM/Mb)	Map(cM)
