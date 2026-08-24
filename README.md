@@ -10,7 +10,7 @@ script for converting from vcf to chromopainterv2 format
 // usage:  ./VCFToCPConvert -g vcf.infile.gz -r recom.infile -o out.file
 
 
-to run: use './VCFToCPConvertNoFrills' with following options:
+to run: use './VCFToCPConvert' with following options:
        
        -g <vcf.filein>  (VCF.gz file;REQUIRED; no default)
        
